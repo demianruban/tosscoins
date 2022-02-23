@@ -1,4 +1,4 @@
-#include <
+// SDL library here for gui
 #include <stdio.h>
 #include <stdlib.h>
 
