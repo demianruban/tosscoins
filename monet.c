@@ -24,8 +24,9 @@ void fun( int throws_n, int series_n ) {
 }
 
 int main() {
+
     fun(128, 8);
-    
+
     return 0;
 }
 
