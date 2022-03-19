@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void fun( int throws_n, int series_n ) {
+void toss_coins( int throws_n, int series_n ) {
     int won_eagles = 0;
     int won_tailes = 0;
     int side;
@@ -25,7 +25,7 @@ void fun( int throws_n, int series_n ) {
 
 int main() {
 
-    fun(128, 8);
+    toss_coins(128, 8);
 
     return 0;
 }
