@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
 
 void tosscoins( int throws, int repeats ) {
     int eagles = 0;
-    int tailes = 0;
+    int tails = 0;
     int side;
 
     for (int i = 0; i < repeats; i++) {
@@ -39,7 +39,7 @@ void tosscoins( int throws, int repeats ) {
 	    else
 		tailes++;
 	}
-	printf("%d. Eagles dropped %d times.\n   Tail dropped %d times.\n", i+1, eagles, tailes);
+	printf("%d. Eagles dropped %d times.\n   Tails dropped %d times.\n", i+1, eagles, tails);
 	eagles = 0;
 	tailes = 0;
     }
